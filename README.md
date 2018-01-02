@@ -4,7 +4,7 @@ The code for algorithm, base on Typescript, Webpack.
 
 You can visit this website here:
 
-[Mirror 1](https://github.com/flyher/code-algorithm)
+[Mirror 1](https://flyher.github.com/code-algorithm)
 
 [Mirror 2](https://algorithm.99diary.com)
 
