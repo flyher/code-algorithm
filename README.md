@@ -12,6 +12,14 @@ You can visit this website here:
 
 ### todo list
 
+- [x] 折半查找  `half-find`
+
+- [ ] 快速查找  `quick-sort`
+
+- [x] 广度遍历  `breadth-first`
+
+- [x] 深度遍历  `breadth-first`
+
 ### install
 
 
