@@ -19,11 +19,11 @@ You can visit this website here:
 npm install
 ```
 
-release
+build
 
-the code will release in `./dist/`
+the code will build in `./dist/`
 ```
-npm run release
+npm run build
 ```
 
 ### Tools

@@ -6,11 +6,15 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
-    'scripts/app': [path.resolve(__dirname, './src/helf-find/app.ts')]
+    // 'scripts/app': [path.resolve(__dirname, './src/half-find/app.ts')]
+    'scripts/app': ['./src/breadth-first/app.ts']
   },
   output: {
     path: path.join(__dirname, '/dist'),
-    publicPath: process.env.NODE_ENV === 'release'? '/dist/': 'http://localhost:8889/dist/',
+    publicPath:
+      process.env.NODE_ENV === 'release'
+        ? '/dist/'
+        : 'http://localhost:8889/dist/',
     filename: '[name].bundle.js'
   },
   module: {
