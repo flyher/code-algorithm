@@ -7,7 +7,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: {
     // 'scripts/app': [path.resolve(__dirname, './src/half-find/app.ts')]
-    'scripts/app': ['./src/breadth-first/app.ts']
+    'scripts/app': ['./src/breadth-first/app.ts'],
+    'scripts/tbase': ['./src/three/tbase.ts']
   },
   output: {
     path: path.join(__dirname, '/dist'),
