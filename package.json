@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "start": "npm run server | npm run dev",
-    "release": "set NODE_ENV='release' & webpack -p",
+    "release": "set NODE_ENV=release & webpack -p",
     "build": "webpack -p"
   },
   "author": "flyher",

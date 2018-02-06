@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '/dist'),
     publicPath:
-      process.env.NODE_ENV === 'release'
+      process.env.NODE_ENV.trim() === 'release'
         ? '/dist/'
         : 'http://localhost:8889/dist/',
     filename: '[name].bundle.js'
