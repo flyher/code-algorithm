@@ -20,6 +20,8 @@ You can visit this website here:
 
 - [x] 深度遍历  `breadth-first`
 
+- [] ThreeJS
+
 ### install
 
 
@@ -33,6 +35,10 @@ the code will build in `./dist/`
 ```
 npm run build
 ```
+
+### Question
+
+[TS2304: Cannot find name 'Iterable'](https://github.com/angular/angular/issues/14595#issuecomment-281148058)
 
 ### Tools
 
