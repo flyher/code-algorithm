@@ -4,7 +4,14 @@
     "sourceMap": true,
     "compilerOptions": {
         "noImplicitAny": true,
-        "target": "es5"
+        "target": "es5",
+        "lib": [
+            "es2015",
+            "es2015.iterable",
+            "dom"
+        ]
+        //TS2304: Cannot find name 'Iterable' https://github.com/angular/angular/issues/14595#issuecomment-281148058
+        // 
     },
     "exclude": [
         "node_modules",
